@@ -6,6 +6,7 @@ Input: n=6
        5 10 25 45 95 65
 Output: 5
 Codes: ques1.c++
+Assignment_01/ques1.c++
 
 Q2. Program to print nth Fibonacci number. 0 1 1 2 3 5 8 13 21…….
 Input: n=7
