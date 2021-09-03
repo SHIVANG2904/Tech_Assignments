@@ -5,37 +5,36 @@ Q1. Program to find the GCD of n numbers.
 Input: n=6
        5 10 25 45 95 65
 Output: 5
-Codes: ques1.c++
-Assignment_01/ques1.c++
+Codes: Assignment_01/ques1.c++
 
 Q2. Program to print nth Fibonacci number. 0 1 1 2 3 5 8 13 21…….
 Input: n=7
 Output: 8
-Codes: ques2.c++
+Codes: Assignment_01/ques2.c++
 
 Q3. Program to print nth prime number.
 Input: n=5
 Output: 11
-Codes: ques3.c++
+Codes: Assignment_01/ques3.c++
 
 Q4. Program to find sum of the prime factors of a number.
 Input: n=100
 Output: 2+5=7
-Codes: ques4.c++
+Codes: Assignment_01/ques4.c++
 
 Q5. Program to print first n non-fobo numbers. First n numbers not in Fibonacci
 series. 0 1 1 2 3 5 8 13……
 Input: n=5
 Output: 4 6 7 9 10
-Codes: ques5.c++
+Codes: Assignment_01/ques5.c++
 
 Q6. Program to convert a number from decimal to binary
 Input: 5
 Output: 0101
-Codes: ques6.c++
+Codes: Assignment_01/ques6.c++
 
 Q7. Program to check whether a number is a Harshad number or not. Harshad 
 Number is an integer that is divisible by the sum of its digits.
 Input: 1729
 Output: Harshad Number
-Codes: ques7.c++
+Codes: Assignment_01/ques7.c++
