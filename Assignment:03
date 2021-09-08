@@ -1,1 +1,33 @@
-
+Coding Assignment-3
+Q1. Find the sum of all possible pairs in an array of N elements
+Given an array arr[] of N integers, the task is to find the sum of all the pairs possible 
+from the given array. Note that,
+1. (arr[i], arr[i]) is also considered as a valid pair.
+2. (arr[i], arr[j]) and (arr[j], arr[i]) are considered as two different pairs.
+Examples:
+Input: arr[] = {1, 2}
+Output: 12
+All valid pairs are (1, 1), (1, 2), (2, 1) and (2, 2).
+1 + 1 + 1 + 2 + 2 + 1 + 2 + 2 = 12
+Q2. Program to print all the distinct elements in an array. Distinct elements are nothing but 
+the unique (non-duplicate) elements present in the given array.
+SAMPLE INPUT:
+ size of an array = 10
+ array elements = 5,3,2,9,7.6,4,5,9,1
+SAMPLE OUTPUT:
+ 3 2 7 6 4 1
+Q3. Program to sort first half of an array in ascending and second half in descending 
+order.
+Input : arr[] = {5, 4, 6, 2, 1, 3, 8, 9, 7 }
+Output : arr[] = {2, 4, 5, 6, 9, 8, 7, 3, 1 }
+Q4. Program to sort elements by frequency in a given array. You need to print the elements 
+of an array in the decreasing frequency and if 2 numbers have same frequency then 
+print the one which came first.
+Input: 2, 3, 5, 3, 9, 6, 3, 3, 2, 5, 2
+Output: 3 3 3 3 2 2 2 5 5 9 6
+Q5. Program to find all triplets with the given sum in the given array. Given an 
+array of integers and a sum value, we need to iterate through the array and find 
+all possible triplets that sum to the given value.
+For example:
+Consider the array: arr[] = {0, -1, 2, -3, 1}. The given sum is -2. In the given array, 
+the triplets with sum = -2 are {0, -3, 1} and {-1, 2, -3}.
