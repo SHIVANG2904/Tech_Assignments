@@ -1,6 +1,6 @@
 # Tech_Assignments
 
-Assignments of Tech placement classes of batch 2023.
+Assignments of Tech Placement Classes of batch 2023.
 
 
 
