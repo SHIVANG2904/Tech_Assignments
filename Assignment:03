@@ -1,11 +1,10 @@
                                                                       Coding Assignment-3
                                                                       -------------------
                                                                       
-Q1. Find the sum of all possible pairs in an array of N elements
-
+Q1. Find the sum of all possible pairs in an array of N elements.
     Given an array arr[] of N integers, the task is to find the sum of all the pairs possible from the given array. Note that,
-    1.) (arr[i], arr[i]) is also considered as a valid pair.
-    2.) (arr[i], arr[j]) and (arr[j], arr[i]) are considered as two different pairs.
+    1) (arr[i], arr[i]) is also considered as a valid pair.
+    2) (arr[i], arr[j]) and (arr[j], arr[i]) are considered as two different pairs.
     Examples:
         Input: arr[] = {1, 2}
         Output: 12
