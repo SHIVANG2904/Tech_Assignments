@@ -1,6 +1,6 @@
 # Tech_Assignments
 
-Assignments of Tech Placement Classes of batch 2023.
+The assignments of Tech Placement Classes of batch 2023.
 
 All the codes are in C/C++.
 
