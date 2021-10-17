@@ -4,15 +4,15 @@
 Write programs to print following patterns-
 
 Q1. X Patterns using numbers
-    1 1
-    2 2
-    3 3
-    4 4
-     5
-    4 4
-    3 3
-    2 2
-    1 1
+    1             1
+       2        2
+         3    3
+          4 4
+           5
+          4 4
+         3    3
+       2       2
+    1            1
 
 Q2. X Pattern using star
        * *
