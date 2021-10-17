@@ -24,6 +24,7 @@ Q2. X Pattern using star
        * *
        * *
        * *
+       
 Q3. N=4 S=3
 3
 44
@@ -33,11 +34,13 @@ Q3. N=4 S=3
 555
 44
 3
+
 Q4. N=4 (No of lines)
 11112
 32222
 33334
 54444
+
 Q5. Pascal Triangle, N=5
 1
  1 1
