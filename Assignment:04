@@ -2,16 +2,16 @@
                                                                      -------------------
                                                                      
 Q1. Given an array of non-negative integers array. We need to find the largest palindrome in the array which is. If no such number exits then print -1.
-    Input:
+   • Input:
           4
           5 131 54545 1111118
           
-    Output:
+   • Output:
           54545
           
 Q2. Program to find all the missing elements in the given range. we have two inputs:
-    •  An array of integers
-    •  The start value and end value of the range
+   •  An array of integers
+   •  The start value and end value of the range
     
 For example, consider the array: arr = {1, 2, 3, 8, 9}. The start value is 1 and the end 
 value is 5. This means the range is 1 to 5. Here the missing elements are 4 and 5.
@@ -19,8 +19,8 @@ value is 5. This means the range is 1 to 5. Here the missing elements are 4 and 
 Q3. Program to rearrange positive and negative numbers in an array by moving all 
 negative numbers to the beginning and positive numbers to the end by 
 maintaining the order of appearance of elements in the array.
-  • Input: 1 -1 2 -2 3 -3 
-  • Output: -1 -2 -3 1 2 3
+   • Input: 1 -1 2 -2 3 -3 
+   • Output: -1 -2 -3 1 2 3
   
 Q4. Program to replace each element by its rank in the given array. Given an array 
 of distinct integers, we need to replace each element of the array with its rank. 
@@ -29,7 +29,7 @@ The minimum value element will have the highest rank.
    • Output array = {4, 3, 6, 5, 2, 7, 1}
    
 Q5. Program to reverse an array in groups of give size k.
-Input: No of element – n - 11
-Group Size – k - 3
-Array of n element: 2, 6, 9, 7, 8, 3, 5, 4, 2, 9, 1
-Output: 9 6 2 3 8 7 2 4 5 1 9
+   • Input: No of element – n - 11
+     Group Size – k - 3
+     Array of n element: 2, 6, 9, 7, 8, 3, 5, 4, 2, 9, 1
+   • Output: 9 6 2 3 8 7 2 4 5 1 9
