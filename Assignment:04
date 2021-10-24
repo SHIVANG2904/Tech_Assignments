@@ -25,8 +25,9 @@ maintaining the order of appearance of elements in the array.
 Q4. Program to replace each element by its rank in the given array. Given an array 
 of distinct integers, we need to replace each element of the array with its rank. 
 The minimum value element will have the highest rank.
- Input array = {10, 8, 15, 12, 6, 20, 1}
- Output array = {4, 3, 6, 5, 2, 7, 1}
+   • Input array = {10, 8, 15, 12, 6, 20, 1}
+   • Output array = {4, 3, 6, 5, 2, 7, 1}
+   
 Q5. Program to reverse an array in groups of give size k.
 Input: No of element – n - 11
 Group Size – k - 3
