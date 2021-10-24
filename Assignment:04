@@ -10,10 +10,12 @@ Q1. Given an array of non-negative integers array. We need to find the largest p
           54545
           
 Q2. Program to find all the missing elements in the given range. we have two inputs:
- An array of integers
- The start value and end value of the range
+    •  An array of integers
+    •  The start value and end value of the range
+    
 For example, consider the array: arr = {1, 2, 3, 8, 9}. The start value is 1 and the end 
 value is 5. This means the range is 1 to 5. Here the missing elements are 4 and 5.
+
 Q3. Program to rearrange positive and negative numbers in an array by moving all 
 negative numbers to the beginning and positive numbers to the end by 
 maintaining the order of appearance of elements in the array.
