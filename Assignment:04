@@ -19,7 +19,9 @@ value is 5. This means the range is 1 to 5. Here the missing elements are 4 and 
 Q3. Program to rearrange positive and negative numbers in an array by moving all 
 negative numbers to the beginning and positive numbers to the end by 
 maintaining the order of appearance of elements in the array.
- Input: 1 -1 2 -2 3 -3  Output: -1 -2 -3 1 2 3
+  • Input: 1 -1 2 -2 3 -3 
+  • Output: -1 -2 -3 1 2 3
+  
 Q4. Program to replace each element by its rank in the given array. Given an array 
 of distinct integers, we need to replace each element of the array with its rank. 
 The minimum value element will have the highest rank.
