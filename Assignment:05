@@ -1,1 +1,21 @@
-
+Coding Assignment-5
+Q1. Program to print the elements of a 2d array in the form of a matrix in spiral form. 
+Input: 1 2 3 4 5 6 7 8 9 10 11 12
+13 14 15 16
+Output: 1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10
+Q2. Program to find the saddle point coordinates in a given matrix. A saddle point is an 
+element of the matrix, which is the minimum element in its row and the maximum in its 
+column.
+Input: Matrix[3][3] - 1 2 3 4 5 6 7 8 9
+Output: 7
+Q3. Program to rotate a matrix by 90 degrees clockwise.
+Input: Matrix[3][3] 1 2 3 4 5 6 7 8 9
+Output: 7 4 1 8 5 2 9 6 3
+Q4. Program to print the sum of elements in the Zigzag sequence in a given matrix.
+Input: Matrix[3][3] 1 2 3 4 5 6 7 8 9
+Output: 1+2+3+5+7+8+9 = 35
+Q5. Given a matrix, the task is to print the boundary elements of the matrix and 
+display their sum.
+Input: Matrix[3][3] 1 2 3 4 5 6 7 8 9
+Output: 1 2 3 4 6 7 8 9
+Sum = 1+2+3+6+9+8+7+4 = 40
