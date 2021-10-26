@@ -1,9 +1,13 @@
                                                                        Coding Assignment-5
                                                                        --------------------
+                                                                       
 Q1. Program to print the elements of a 2d array in the form of a matrix in spiral form. 
-Input: 1 2 3 4 5 6 7 8 9 10 11 12
-13 14 15 16
+Input: 1  2  3  4 
+       5  6  7  8 
+       9 10 11 12
+      13 14 15 16
 Output: 1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10
+
 Q2. Program to find the saddle point coordinates in a given matrix. A saddle point is an 
 element of the matrix, which is the minimum element in its row and the maximum in its 
 column.
