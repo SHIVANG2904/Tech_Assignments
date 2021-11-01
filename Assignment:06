@@ -1,1 +1,30 @@
-
+Coding Assignment-6
+Q1. Program to find the frequency of characters in a string in O(n) time complexity.
+Input: kiit
+Output: k – 1
+i – 2
+t – 1
+Q2. Program to check if two strings are anagrams or not. Two strings are given as 
+input and those strings have to be checked if they are anagrams or not. 
+Anagram means that both strings contain the same character set, only their 
+order is different. Therefore, in both strings, the frequency of each letter must be 
+the same. For example, strings "act" and "cat" are anagrams.
+Q3. Program to find the first non-repeating character in a string.
+Input: teeterson
+Output: r
+Q4. Program to capitalize first and last letter of each word in a line. The basic 
+algorithm is to keep track of the spaces and capitalize the letter before the space 
+and after space. The first letter and the last letter of the given line should be 
+capitalized.
+There are only a few things that need to be considered:
+ More than one occurrence of spaces between two words.
+ There can be a single word like 'a' that needs to be capitalized.
+ There may be two words like "me" where both letters must be capitalized.
+Input: kiit university
+Output: KiiT UniversitY
+Q5. In a mathematics class, Jason the mathematics teacher asked to solve a book of 
+expressions consisting of characters, operators, and brackets. But Jason wants to 
+give simplified expressions by removing brackets from the expressions. Write an 
+algorithm to help Jason simplify an expression by removing brackets
+Input: x-(p+q)+(y-a)
+Output: x-p+q+y-a
