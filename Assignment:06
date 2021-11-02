@@ -2,10 +2,11 @@
                                                                              -------------------
                                                                              
 Q1. Program to find the frequency of characters in a string in O(n) time complexity.
-Input: kiit
-Output: k – 1
-i – 2
-t – 1
+    Input:  kiit
+    Output: k – 1
+            i – 2
+            t – 1
+            
 Q2. Program to check if two strings are anagrams or not. Two strings are given as 
 input and those strings have to be checked if they are anagrams or not. 
 Anagram means that both strings contain the same character set, only their 
