@@ -12,8 +12,9 @@ Anagram means that both strings contain the same character set, only their order
 the same. For example, strings "act" and "cat" are anagrams.
 
 Q3. Program to find the first non-repeating character in a string.
-Input: teeterson
-Output: r
+    Input:  teeterson
+    Output: r
+    
 Q4. Program to capitalize first and last letter of each word in a line. The basic 
 algorithm is to keep track of the spaces and capitalize the letter before the space 
 and after space. The first letter and the last letter of the given line should be 
