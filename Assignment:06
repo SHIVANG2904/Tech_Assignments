@@ -19,12 +19,13 @@ Q4. Program to capitalize first and last letter of each word in a line. The basi
 algorithm is to keep track of the spaces and capitalize the letter before the space 
 and after space. The first letter and the last letter of the given line should be 
 capitalized.
-There are only a few things that need to be considered:
- More than one occurrence of spaces between two words.
- There can be a single word like 'a' that needs to be capitalized.
- There may be two words like "me" where both letters must be capitalized.
-Input: kiit university
-Output: KiiT UniversitY
+    There are only a few things that need to be considered:
+    ● More than one occurrence of spaces between two words.
+    ● There can be a single word like 'a' that needs to be capitalized.
+    ● There may be two words like "me" where both letters must be capitalized.
+    Input:  kiit university
+    Output: KiiT UniversitY
+    
 Q5. In a mathematics class, Jason the mathematics teacher asked to solve a book of 
 expressions consisting of characters, operators, and brackets. But Jason wants to 
 give simplified expressions by removing brackets from the expressions. Write an 
