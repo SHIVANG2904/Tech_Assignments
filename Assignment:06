@@ -30,5 +30,5 @@ Q5. In a mathematics class, Jason the mathematics teacher asked to solve a book 
 expressions consisting of characters, operators, and brackets. But Jason wants to 
 give simplified expressions by removing brackets from the expressions. Write an 
 algorithm to help Jason simplify an expression by removing brackets
-Input: x-(p+q)+(y-a)
-Output: x-p+q+y-a
+    Input:  x-(p+q)+(y-a)
+    Output: x-p+q+y-a
