@@ -1,1 +1,22 @@
 
+Coding Assignment-7
+Q1. Program to check for balanced parenthesis in an expression
+Input: ((()))
+Output: 1
+Input: ()((
+Output: -1
+Q2. Program to replace the substring of a given string with another string. The 
+substring may be more than once in the string and you have to replace all.
+Input: String : ram is a good boy
+Substring: is
+Replace String: was
+Output: ram was a good boy
+Q3. Program to reverse all vowels in a given string.
+Input: hello india
+Output: halli indoe
+Q4. Program to expand/decode a string as follows.
+Input: a2b4c3
+Output: aabbbbccc
+Q5. Program to reverse every words in a sentence using recursion.
+Input: Kiit Deemed to be University
+OutPut: tiiK deemed ot eb ytisrevinU
