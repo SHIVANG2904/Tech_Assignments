@@ -1,1 +1,99 @@
-
+Coding Assignment-8
+Q1. In the city of Toyland, there are N houses. Noddy is looking for a piece of land in 
+the city to build his house. He wants to buy the land where he can build the 
+largest possible house. All the houses in the city lie in a straight line and all of 
+them are given a house number and position of the house from the entry point in 
+the city. Noddy wants to find the house numbers between which he can build the 
+largest house.
+Write an algorithm to help Noddy to find the house numbers between which he can
+build his house.
+Input: The input to the function/method consists of two arguments
+ numOf House, an integer representing the number of houses.
+ houseList, a list where each element of the list is a list of integers representing the 
+house number and its position respectively.
+Constraints
+2 < numOfHouse < 106
+1 <houseList[i][0] <numOfHouse
+0 < houseList[i][1] < 106
+0 < I < numOfHouse
+Note: No two houses will have the same position. In case of multiple such answers, 
+return the one with the least distance from the reference point Zero.
+Example:
+Input:
+numOfHouse = 5
+houseList = [[3, 7],[1, 9],[2, 0],[5, 15],[4, 30]]
+Output: [4, 5]
+Q2. A water reservation system constructed in a city has several opening and closing 
+gates. If any opening gates are not closed with a corresponding closing gate then 
+the water will leak out of the system and there will be a threat to the life of 
+people living in the city. Also, the closing gate cannot exist without the opening 
+gate, so the system head checks the design of the system and he has to ensure that 
+the people are safe in the city. Write an algorithm to find whether people are safe 
+or not.
+Input:
+The input to the function/method consists of one argument- str, a string representing 
+the sequence of gates of the water reservation system.
+Output:
+Return an integer representing the number of gates which have closing gates 
+corresponding to the opening gates else return an integer-1.
+Constraints:
+The opening gates are representing by “(“ and closing gates are representing “)”
+Example 1
+Input: Str =()()
+Output: 3
+Q3. Given weights and values of n items, the task is to put these items in a knapsack 
+of capacity W to get the maximum total value in the knapsack. In this problem, 
+0-1 means that we can either put the complete item in the knapsack or ignore it.
+Consider the following example,
+Input:
+Number of items:3
+value and weight of items:
+100 20
+50 10
+150 30
+Size of the knapsack:50
+Output:
+Maximum total value in the knapsack:250
+Explanation:
+Weight = 20, value = 100
+Weight = 10, value = 50
+Weight = 30, value = 150
+Weight = (20 + 10), Value = (100 + 50)
+Weight = (20 + 30), Value = (100 + 150)
+Weight = (10 + 30), Value = (50 + 150)
+Weight = (20 + 10 + 30) > 50
+The maximum among these is
+Weight = (20 + 30), Value = (100 + 150)
+Weight = 50, Value = 250
+Q4. Program to find the total number of islands using DFS is discussed here. Given 
+an input island matrix, where 0 represents water and 1 represents land. Find the 
+total number of islands that are formed by connected 1’s.
+For example, consider the input island matrix
+1 0 1 0 1
+0 0 1 0 0
+0 0 1 1 0
+0 1 0 1 0
+1 1 1 0 0
+0 0 0 0 1
+0 1 0 1 0
+0 0 1 1 0
+0 0 0 1 1
+1 1 0 0 0
+Total number of islands = 5
+Q5. Emma wants to gift a bouquet to her father on his birthday and asked for help 
+from her mother Rosy. Rosy gives N flower sticks numbered 1 to N to Emma and 
+tells her to arrange it in the bouquet in a particular order. She asks her to 
+arrange the first K flower sticks in the order of their increasing length and the 
+remaining sticks in an order of their decreasing length.
+Write an algorithm to find the final arrangement of the flower sticks in which Emma 
+gifted the bouquet to her father.
+Input:
+The input to the function/method consists of three arguments.
+ num, an integer representing the number of flower sticks (N).
+ random, an integer representing the number K given by Rosy to Emma sticks
+ a list of integers representing the length of flower sticks.
+Output: Return a list of integers representing the final pattern of the flower sticks in 
+which Emma gifted the bouquet to her father
+Constraints:
+Random < num
+0 < num < 106
