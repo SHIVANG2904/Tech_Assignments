@@ -1,1 +1,78 @@
 
+Coding Assignment-9
+Q1. There are N street lights numbered from 1 to N each street lamp i has two 
+numbers start[i] and end[i] meaning they can light all the streets numbered 
+from start to end. You just need to find how many areas are getting lighted.
+Test Case-1:
+Input: { {5,8} , {10,12} }
+Output: 5
+Test Case-2:
+Input: { {5,10} , {8,12} }
+Output: 7
+Q2. There are N interns numbered from 1 to N. Each intern is assigned a unique ID 
+for each day. Rules being 1<=N<=24. The ith intern has an ID of (5000*i) on day1 
+and for rest of days; day[j]=day[j-1]+5000+(j-1). Input to the problem id ID of 
+the intern. Output is number of intern on particular day.
+Test Case-1:
+Input: 15000
+Output: Third Intern [Day 1]
+Test Case-2:
+Input: 25003
+Output: Third Intern [Day 3]
+Q3. There are N bus stops numbered from 1 to N. B[i] denotes the number of buses 
+going from the ith bus stop. Each bus will only stop in the bus stop which is the 
+multiple of the bus stop the bus is initially in, which means if a bus starts from 
+2nd bus stop, it will only stop in 2,4,6,8,10,12……. bus stops. If 3 then, 3 6 9 12 15 
+18….. Each bus if it goes from the ith bus stop, will also go from the next ith
+multiple bus stop. You need to tell the number of unique buses from each bus 
+stop.
+Test Case-1:
+Input: 1 2 3
+Output: 1 1 2
+Test Case-2:
+Input: 2 3 4 6
+Output: 2 1 2 3
+Q4. There are N bowls numbered from 1 to N and each bowl can contain maximum 9 
+marbles. A user has to add a marble to the last bowl i.e. Nth Bowl. If Nth bowl is 
+full i.e. it already has 9 marbles, you need to check in (N-1)th. If (N-1)th bowl has 
+space to accommodate one more marble, then you need to add marble in it and 
+remove all the marbles from Nth bowl. You need to identify the bowl will be 
+modified when you add a marble. If all bowls are full, print output as 0.
+Input : First line contains number of bowls. 
+Second line will denotes number of marbles in each bowl from 1 to N.
+Output : index of last modified bowl.
+Test Case-1:
+Input: 2 
+2 3 
+Here first line denotes that there are 2 bowls. Second line denotes that there are 2 
+marbles in first bowl and 3 marbles in second bowl.
+Output: 2
+First we will check in the last bowl. It has less than 9 marbles, so we can add marble 
+to last bowl and now status of the bowls will 2 4. As we have added marble to the 
+second bowl, output will be 2.
+Test Case-2:
+Input: 2
+2 9
+Since if we add 1 to the last bowl, it becomes 2 10, not allowed, so the one marble 
+gets carry forwarded to the next bowl making it 3 0, so 1st bowl is the last modified.
+Test Case-3:
+Input: 2
+9 9
+Since if we add 1 to the last bowl, it becomes 9 10, carry forward it becomes 10 0, 
+again a problem, so 0 0 making nothing getting modified at the end.
+Q5. There is a given maze of size N x N. The source and the destination location is 
+top-left cell and bottom right cell respectively. Some cells are valid to move and 
+some cells are blocked. If one rat starts moving from start vertex to destination 
+vertex, we have to find that is there any way to complete the path, if it is possible 
+then mark the correct path for the rat.
+The maze is given using a binary matrix, where it is marked with 1, it is a valid path, 
+otherwise 0 for a blocked cell.
+NOTE: The rat can only move in two directions, either to the right or to the down.
+Input: This algorithm will take the maze as a matrix.
+In the matrix, the value 1 indicates the free space and 0 indicates the wall 
+ or blocked area.
+In this diagram, the top-left circle indicates the starting point and the bottom-right 
+circle indicates the ending point.
+Output:
+It will display a matrix. From that matrix, we can find the path of the rat to reach the 
+destination point.
