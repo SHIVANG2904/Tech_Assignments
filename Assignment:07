@@ -20,8 +20,9 @@ Q3. Program to reverse all vowels in a given string.
     Output: halli indoe
     
 Q4. Program to expand/decode a string as follows.
-Input: a2b4c3
-Output: aabbbbccc
+    Input: a2b4c3
+    Output: aabbbbccc
+    
 Q5. Program to reverse every words in a sentence using recursion.
 Input: Kiit Deemed to be University
 OutPut: tiiK deemed ot eb ytisrevinU
