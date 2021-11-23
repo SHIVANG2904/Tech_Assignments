@@ -24,5 +24,5 @@ Q4. Program to expand/decode a string as follows.
     Output: aabbbbccc
     
 Q5. Program to reverse every words in a sentence using recursion.
-Input: Kiit Deemed to be University
-OutPut: tiiK deemed ot eb ytisrevinU
+    Input: Kiit Deemed to be University
+    OutPut: tiiK deemed ot eb ytisrevinU
