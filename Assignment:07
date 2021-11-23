@@ -16,8 +16,9 @@ substring may be more than once in the string and you have to replace all.
     Output: ram was a good boy
     
 Q3. Program to reverse all vowels in a given string.
-Input: hello india
-Output: halli indoe
+    Input: hello india
+    Output: halli indoe
+    
 Q4. Program to expand/decode a string as follows.
 Input: a2b4c3
 Output: aabbbbccc
