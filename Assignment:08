@@ -9,22 +9,21 @@ the city. Noddy wants to find the house numbers between which he can build the
 largest house.
 Write an algorithm to help Noddy to find the house numbers between which he can
 build his house.
-Input: The input to the function/method consists of two arguments
- numOf House, an integer representing the number of houses.
- houseList, a list where each element of the list is a list of integers representing the 
-house number and its position respectively.
-Constraints
-2 < numOfHouse < 106
-1 <houseList[i][0] <numOfHouse
-0 < houseList[i][1] < 106
-0 < I < numOfHouse
-Note: No two houses will have the same position. In case of multiple such answers, 
-return the one with the least distance from the reference point Zero.
-Example:
-Input:
-numOfHouse = 5
-houseList = [[3, 7],[1, 9],[2, 0],[5, 15],[4, 30]]
-Output: [4, 5]
+   Input: The input to the function/method consists of two arguments
+          ● numOf House, an integer representing the number of houses.
+          ● houseList, a list where each element of the list is a list of integers representing the house number and its position respectively.
+   Constraints:
+               2 < numOfHouse < 106
+               1 <houseList[i][0] <numOfHouse
+               0 < houseList[i][1] < 106
+               0 < I < numOfHouse
+   Note: No two houses will have the same position. In case of multiple such answers, return the one with the least distance from the reference point Zero.
+   Example:
+          Input:
+                numOfHouse = 5
+                houseList = [[3, 7],[1, 9],[2, 0],[5, 15],[4, 30]]
+                Output: [4, 5]
+                
 Q2. A water reservation system constructed in a city has several opening and closing 
 gates. If any opening gates are not closed with a corresponding closing gate then 
 the water will leak out of the system and there will be a threat to the life of 
