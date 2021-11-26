@@ -31,17 +31,16 @@ people living in the city. Also, the closing gate cannot exist without the openi
 gate, so the system head checks the design of the system and he has to ensure that 
 the people are safe in the city. Write an algorithm to find whether people are safe 
 or not.
-Input:
-The input to the function/method consists of one argument- str, a string representing 
+    Input: The input to the function/method consists of one argument- str, a string representing 
 the sequence of gates of the water reservation system.
-Output:
-Return an integer representing the number of gates which have closing gates 
+    Output: Return an integer representing the number of gates which have closing gates 
 corresponding to the opening gates else return an integer-1.
-Constraints:
-The opening gates are representing by “(“ and closing gates are representing “)”
-Example 1
-Input: Str =()()
-Output: 3
+    Constraints: The opening gates are representing by “(“ and closing gates are representing “)”
+Example 1:-
+----------
+        Input: Str =()()
+        Output: 3
+        
 Q3. Given weights and values of n items, the task is to put these items in a knapsack 
 of capacity W to get the maximum total value in the knapsack. In this problem, 
 0-1 means that we can either put the complete item in the knapsack or ignore it.
