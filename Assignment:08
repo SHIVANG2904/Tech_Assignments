@@ -37,7 +37,6 @@ the sequence of gates of the water reservation system.
 corresponding to the opening gates else return an integer-1.
     Constraints: The opening gates are representing by “(“ and closing gates are representing “)”
 Example 1:-
-----------
         Input: Str =()()
         Output: 3
         
