@@ -44,15 +44,12 @@ Q3. Given weights and values of n items, the task is to put these items in a kna
 of capacity W to get the maximum total value in the knapsack. In this problem, 
 0-1 means that we can either put the complete item in the knapsack or ignore it.
 Consider the following example,
-Input:
-Number of items:3
-value and weight of items:
-100 20
-50 10
-150 30
-Size of the knapsack:50
-Output:
-Maximum total value in the knapsack:250
+Input:Number of items:3
+      value and weight of items:100 20
+                                50  10
+                                150 30
+      Size of the knapsack:50
+Output: Maximum total value in the knapsack:250
 Explanation:
 Weight = 20, value = 100
 Weight = 10, value = 50
@@ -64,6 +61,7 @@ Weight = (20 + 10 + 30) > 50
 The maximum among these is
 Weight = (20 + 30), Value = (100 + 150)
 Weight = 50, Value = 250
+
 Q4. Program to find the total number of islands using DFS is discussed here. Given 
 an input island matrix, where 0 represents water and 1 represents land. Find the 
 total number of islands that are formed by connected 1’s.
