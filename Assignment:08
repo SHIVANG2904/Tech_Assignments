@@ -85,13 +85,12 @@ arrange the first K flower sticks in the order of their increasing length and th
 remaining sticks in an order of their decreasing length.
 Write an algorithm to find the final arrangement of the flower sticks in which Emma 
 gifted the bouquet to her father.
-Input:
-The input to the function/method consists of three arguments.
- num, an integer representing the number of flower sticks (N).
- random, an integer representing the number K given by Rosy to Emma sticks
- a list of integers representing the length of flower sticks.
-Output: Return a list of integers representing the final pattern of the flower sticks in 
+   Input: The input to the function/method consists of three arguments.
+         ● num, an integer representing the number of flower sticks (N).
+         ● random, an integer representing the number K given by Rosy to Emma sticks
+         ● a list of integers representing the length of flower sticks.
+   Output: Return a list of integers representing the final pattern of the flower sticks in 
 which Emma gifted the bouquet to her father
-Constraints:
-Random < num
-0 < num < 106
+   Constraints:
+              Random < num
+              0 < num < 106
