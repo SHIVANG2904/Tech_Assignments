@@ -89,8 +89,7 @@ gifted the bouquet to her father.
          ● num, an integer representing the number of flower sticks (N).
          ● random, an integer representing the number K given by Rosy to Emma sticks
          ● a list of integers representing the length of flower sticks.
-   Output: Return a list of integers representing the final pattern of the flower sticks in 
-which Emma gifted the bouquet to her father
+   Output: Return a list of integers representing the final pattern of the flower sticks in which Emma gifted the bouquet to her father
    Constraints:
               Random < num
               0 < num < 106
