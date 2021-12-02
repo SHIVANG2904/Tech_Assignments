@@ -1,5 +1,7 @@
 
-Coding Assignment-9
+                                                                        Coding Assignment-9
+                                                                        --------------------
+                                                                        
 Q1. There are N street lights numbered from 1 to N each street lamp i has two 
 numbers start[i] and end[i] meaning they can light all the streets numbered 
 from start to end. You just need to find how many areas are getting lighted.
