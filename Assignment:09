@@ -6,11 +6,12 @@ Q1. There are N street lights numbered from 1 to N each street lamp i has two
 numbers start[i] and end[i] meaning they can light all the streets numbered 
 from start to end. You just need to find how many areas are getting lighted.
 Test Case-1:
-Input: { {5,8} , {10,12} }
-Output: 5
+           Input: { {5,8} , {10,12} }
+           Output: 5
 Test Case-2:
-Input: { {5,10} , {8,12} }
-Output: 7
+           Input: { {5,10} , {8,12} }
+           Output: 7
+           
 Q2. There are N interns numbered from 1 to N. Each intern is assigned a unique ID 
 for each day. Rules being 1<=N<=24. The ith intern has an ID of (5000*i) on day1 
 and for rest of days; day[j]=day[j-1]+5000+(j-1). Input to the problem id ID of 
