@@ -31,11 +31,12 @@ multiple of the bus stop the bus is initially in, which means if a bus starts fr
 multiple bus stop. You need to tell the number of unique buses from each bus 
 stop.
 Test Case-1:
-Input: 1 2 3
-Output: 1 1 2
+            Input: 1 2 3
+            Output: 1 1 2
 Test Case-2:
-Input: 2 3 4 6
-Output: 2 1 2 3
+           Input: 2 3 4 6
+           Output: 2 1 2 3
+           
 Q4. There are N bowls numbered from 1 to N and each bowl can contain maximum 9 
 marbles. A user has to add a marble to the last bowl i.e. Nth Bowl. If Nth bowl is 
 full i.e. it already has 9 marbles, you need to check in (N-1)th. If (N-1)th bowl has 
