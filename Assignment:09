@@ -17,11 +17,12 @@ for each day. Rules being 1<=N<=24. The ith intern has an ID of (5000*i) on day1
 and for rest of days; day[j]=day[j-1]+5000+(j-1). Input to the problem id ID of 
 the intern. Output is number of intern on particular day.
 Test Case-1:
-Input: 15000
-Output: Third Intern [Day 1]
+            Input: 15000
+            Output: Third Intern [Day 1]
 Test Case-2:
-Input: 25003
-Output: Third Intern [Day 3]
+            Input: 25003
+            Output: Third Intern [Day 3]
+            
 Q3. There are N bus stops numbered from 1 to N. B[i] denotes the number of buses 
 going from the ith bus stop. Each bus will only stop in the bus stop which is the 
 multiple of the bus stop the bus is initially in, which means if a bus starts from 
