@@ -44,11 +44,11 @@ space to accommodate one more marble, then you need to add marble in it and
 remove all the marbles from Nth bowl. You need to identify the bowl will be 
 modified when you add a marble. If all bowls are full, print output as 0.
 Input : First line contains number of bowls. 
-Second line will denotes number of marbles in each bowl from 1 to N.
+        Second line will denotes number of marbles in each bowl from 1 to N.
 Output : index of last modified bowl.
 Test Case-1:
-Input: 2 
-2 3 
+           Input: 2 
+                  2 3 
 Here first line denotes that there are 2 bowls. Second line denotes that there are 2 
 marbles in first bowl and 3 marbles in second bowl.
 Output: 2
@@ -56,15 +56,16 @@ First we will check in the last bowl. It has less than 9 marbles, so we can add 
 to last bowl and now status of the bowls will 2 4. As we have added marble to the 
 second bowl, output will be 2.
 Test Case-2:
-Input: 2
-2 9
+            Input: 2
+                   2 9
 Since if we add 1 to the last bowl, it becomes 2 10, not allowed, so the one marble 
 gets carry forwarded to the next bowl making it 3 0, so 1st bowl is the last modified.
 Test Case-3:
-Input: 2
-9 9
+            Input: 2
+                   9 9
 Since if we add 1 to the last bowl, it becomes 9 10, carry forward it becomes 10 0, 
 again a problem, so 0 0 making nothing getting modified at the end.
+
 Q5. There is a given maze of size N x N. The source and the destination location is 
 top-left cell and bottom right cell respectively. Some cells are valid to move and 
 some cells are blocked. If one rat starts moving from start vertex to destination 
