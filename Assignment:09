@@ -79,6 +79,5 @@ In the matrix, the value 1 indicates the free space and 0 indicates the wall
  or blocked area.
 In this diagram, the top-left circle indicates the starting point and the bottom-right 
 circle indicates the ending point.
-Output:
-It will display a matrix. From that matrix, we can find the path of the rat to reach the 
+Output: It will display a matrix. From that matrix, we can find the path of the rat to reach the 
 destination point.
